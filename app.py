@@ -78,14 +78,14 @@ if state:
 
             # Set the balloon style based on sentiment
             if sentiment == "Positive":
-                class_ = "balloon positive"
+                balloon_class  = "balloon positive"
                 st.balloons()
             else:
-                class_ = "Snow negative"
+                balloon_class  = "Snow negative"
                 st.snow()
 
             # Display the sentiment in a styled balloon
-            st.markdown(f'<div class="{class_}">The sentiment is: {sentiment}</div>', unsafe_allow_html=True)
+            st.markdown(f'<div class="{balloon_class }">The sentiment is: {sentiment}</div>', unsafe_allow_html=True)
 
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
