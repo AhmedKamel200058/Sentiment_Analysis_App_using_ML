@@ -81,7 +81,7 @@ if state:
                 balloon_class = "balloon positive"
                 st.balloons()
             else:
-                balloon_class = "balloon negative"
+                Snow_class = "Snow negative"
                 st.snow()
 
             # Display the sentiment in a styled balloon
