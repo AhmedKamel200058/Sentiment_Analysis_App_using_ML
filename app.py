@@ -10,8 +10,8 @@ model=pickle.load(open("Models/model.pkl",'rb'))
 vectorizer=pickle.load(open("Models/vectorizer.pkl",'rb'))
 
 st.text("sentiment analysis")
-state = st.button("predict")
 text = st.text_input("please enter your review")
+state = st.button("predict")
 
 token = helper.preprocessing_step(text)
 vectorized_data = vectorizer.transform([token])
