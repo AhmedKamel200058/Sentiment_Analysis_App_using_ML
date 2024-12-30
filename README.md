@@ -16,9 +16,10 @@ A web-based application to predict sentiment (Positive/Negative) using machine l
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/AhmedKamel200058/Sentiment-Analysis-by-using-ML.git
+   git clone https://github.com/AhmedKamel200058/Sentiment_Analysis_App_using_ML.git
    cd sentiment-analysis-app
    ```
+   
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
